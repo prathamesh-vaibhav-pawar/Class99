@@ -1,0 +1,41 @@
+.Photo{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+.Text_area{
+    width: 300px;
+}
+.Container1{
+    position: relative;
+    background-color: #2b2b2b;
+    width: 400px;
+    right: 200px;
+    border-style: solid;
+
+}
+.Container2{
+    background-color: #2b2b2b;
+    width: 400px;
+    position: relative;
+    left: 300px;
+    bottom: 190px;
+    border-style: solid;
+
+}
+.Container3{
+    background-color: #2b2b2b;
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    left: 150px;
+}
+.Container1:hover{
+    border-radius: 20px;
+}
+.Container2:hover{
+    border-radius: 20px;
+}.Container3:hover{
+    border-radius: 20px;
+    box-shadow: #252525;
+}
